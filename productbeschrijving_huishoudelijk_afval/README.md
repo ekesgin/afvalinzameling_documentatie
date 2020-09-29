@@ -5,31 +5,12 @@ Deze datasets beschrijven de gegevens over onder- en bovengrondse afvalcontainer
 Alle data wordt dagelijks geactualiseerd.
 
 De data wordt in de volgende vormen beschikbaar:
-- rest api
+- Rest Api
 - OGC WFS (gebruik GIS software)
 
   
-## Productinhoud
+## Productinhoud en Beschikbare productvormen
 De productinhoud is voor alle vormen gelijk, per vorm kan de data anders zijn geordend. Op dit moment worden alleen de laatst bekende (actuele) gegevens beschikbaar gesteld. 
-
-
- - [productinhoud afvalcontainers](productinhoud_afvalcontainers.md)
- - [productinhoud clusters](productinhoud_afvalcontainer_clusters.md)
- - [productinhoud weeggegevens](productinhoud_afval_wegingen.md)
- - [productinhoud containerlocaties](productinhoud_containerlocaties.md)
- - [productinhoud containertype](productinhoud_containertype.md)
- - [productinhoud cluster_fractie](productinhoud_clusterfractie.md)
-
-
-## Geografische afbakening
-De producten bevatten alle gegevens binnen de bestuurlijke gemeentegrens van Amsterdam
-
-## gegevensmodel
-Het gegevensmodel representeert de samenhang tussen objectklassen uit het domein afval en gerelateerde entiteiten. Dit model vormt de basis van alle dataproducten die hieruit (kunnen) worden afgeleid.
-De samenhang tussen de objecten is gebaseerd op basis van thematische voorwaarden, ruimte en tijd (historie).
-Voor een grafische weergave van het model zie [logisch gegevensmodel integratie](conceptueel_gegevensmodel_integratie.md)
-
-## Beschikbare productvormen
 
 ### Rest api
 De rest api is aan te roepen met de url:
@@ -46,7 +27,7 @@ De rest api is aan te roepen met de url:
 - wegingen: https://api.data.amsterdam.nl/v1/docs/datasets/huishoudelijkafval.html#weging
 - containertype: https://api.data.amsterdam.nl/v1/docs/datasets/huishoudelijkafval.html#containertype
 - cluster fractie: https://api.data.amsterdam.nl/v1/docs/datasets/huishoudelijkafval.html#clusterfractie
-- containerlocatie
+- containerlocatie: https://api.data.amsterdam.nl/v1/docs/datasets/huishoudelijkafval.html#containerlocatie
 
 ### WFS
 WFS is aan te roepen met de volgende url:
@@ -59,6 +40,14 @@ https://api.data.amsterdam.nl/v1/wfs/huishoudelijkafval/
 - Containertype: https://api.data.amsterdam.nl/v1/docs/wfs-datasets/huishoudelijkafval.html#containertype
 - Weging: https://api.data.amsterdam.nl/v1/docs/wfs-datasets/huishoudelijkafval.html#weging
 - Clusterfractie: https://api.data.amsterdam.nl/v1/docs/wfs-datasets/huishoudelijkafval.html#clusterfractie
+
+## Geografische afbakening
+De producten bevatten alle gegevens binnen de bestuurlijke gemeentegrens van Amsterdam
+
+## gegevensmodel
+Het gegevensmodel representeert de samenhang tussen objectklassen uit het domein afval en gerelateerde entiteiten. Dit model vormt de basis van alle dataproducten die hieruit (kunnen) worden afgeleid.
+De samenhang tussen de objecten is gebaseerd op basis van thematische voorwaarden, ruimte en tijd (historie).
+Voor een grafische weergave van het model zie [logisch gegevensmodel integratie](logisch_gegevensmodel_integratie.md)
 
 
 ## Definities objectklassen
@@ -85,6 +74,7 @@ De wegingen worder per container uitgevoerd. Vanaf 2016 zijn er weeggegevens bes
 Een beperking is wanneer er meerdere containers van dezelfde fractie bij elkaar staan niet kan worden geidentificeerd welke weging op welke container betrekking heeft.
 
 #### Cluster fractie
-
+De cluster fractie omvat de informate per cluster, aantal bijbehorende containers, volume per fractie, fractiecode en fractie omschrijving. 
 
 #### containertype
+Er zijn verschillende containersoorten in gebruik. Voor elke soort zijn de volgende gegevens geregistreerd: naam, volume en gewicht.
