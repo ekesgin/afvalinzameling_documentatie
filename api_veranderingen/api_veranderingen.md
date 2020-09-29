@@ -16,9 +16,16 @@ In het bijgevoegde document zijn de drie verschillende API's vergelijken.
 |                 | Naast RD geen andere expliciete coördinatenstelsels|  |
 |                 | Structuur gewijzigd, opbouw DSO-conform: linked data principe naar Gebieden en BAG|  |
 |                 | objectgegevens check  toegevoegd: wijzigingsdatum en verwijderd indicator|  |
-|                 | clusterfractiegegevens in aparte endpoint| cluster |
-|                 | Naast RD geen andere expliciete coördinatenstelsels| cluster |
-|                 | Opbouw DSO-conform: linked data principe naar Gebieden en BAG| cluster |
+| afvalclusters   | clusterfractiegegevens in aparte endpoint| cluster |
+|                 | Naast RD geen andere expliciete coördinatenstelsels| |
+|                 | Opbouw DSO-conform: linked data principe naar Gebieden en BAG|  |
+|                 | aparte endpoint op basis van sitesfracties| clusterfractie |
+|                 | clusterfractie-id toegevoegd |  |
+|                 | Fractie-id’s gestandaardiseerd |  |
+|                 | datum opvoer wijziging en einde toegevoegd |  |
+|                 | Objectgegevens check  toegevoegd: wijzigingsdatum  |  |
+| afvalweging     | Naast RD geen andere expliciete coördinatenstelsels  | weging |
+|                 | Opbouw DSO-conform: linked data principe naar Gebieden en BAG  |  |
 
 
 
