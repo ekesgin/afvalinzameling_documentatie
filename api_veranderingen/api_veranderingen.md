@@ -7,9 +7,9 @@ In het bijgevoegde document zijn de drie verschillende API's vergelijken.
 |                 | Containerlocatiegegevens (put) in aparte endpoint |   |
 |                 | Naast RD geen andere expliciete coördinatenstelsel|   |
 |                 | Opbouw DSO-conform: linked data principe naar Gebieden en BAG |   |
-|                 | aparte endpoint op basis van containertypes |  containertype |
+|         -        | aparte endpoint op basis van containertypes |  containertype |
 |                 | Objectgegevens check  toegevoegd: wijzigingsdatum|  |
-|                 | aparte endpoint op basis van wells, object-id’s blijven gelijk| containerlocatie |
+|         -        | aparte endpoint op basis van wells, object-id’s blijven gelijk| containerlocatie |
 |                 | Status en eigenaar toegevoegd|  |
 |                 | datum plaatsing en oplevering toegevoegd|  |
 |                 | Indicator bevat container toegevoegd|  |
@@ -19,7 +19,7 @@ In het bijgevoegde document zijn de drie verschillende API's vergelijken.
 | afvalclusters   | clusterfractiegegevens in aparte endpoint| cluster |
 |                 | Naast RD geen andere expliciete coördinatenstelsels| |
 |                 | Opbouw DSO-conform: linked data principe naar Gebieden en BAG|  |
-|                 | aparte endpoint op basis van sitesfracties| clusterfractie |
+|       -          | aparte endpoint op basis van sitesfracties| clusterfractie |
 |                 | clusterfractie-id toegevoegd |  |
 |                 | Fractie-id’s gestandaardiseerd |  |
 |                 | datum opvoer wijziging en einde toegevoegd |  |
