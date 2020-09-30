@@ -1,5 +1,5 @@
 ## Vergelijking van API's
-In de onderstaande tabel de verschillen API v2.0 en API v2.1 te zien. 
+In de onderstaande tabel de verschillen tussen twee API's te zien. 
 
 | Rest API v2.0  | Impact/change | Rest-api V2.1 |
 | --- | --- | --- |
